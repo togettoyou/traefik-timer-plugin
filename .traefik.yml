@@ -1,0 +1,11 @@
+# 在 Traefik Pilot Web UI 中显示的插件的名称
+displayName: Timer Plugin
+# 插件类型，目前版本只支持 middleware
+type: middleware
+# 插件导入路径
+import: github.com/togettoyou/traefik-timer-plugin
+# 插件简介
+summary: 用于请求响应计时
+# 配置数据
+testData:
+  log: true
