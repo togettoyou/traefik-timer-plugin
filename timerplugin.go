@@ -1,4 +1,4 @@
-package timerplugin
+package traefik_timer_plugin
 
 import (
 	"context"
